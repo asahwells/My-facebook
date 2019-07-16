@@ -2,18 +2,24 @@ body{font-family: 'Lobster Two', cursive;
     background: url("images/animal-green-green-mamba-38268.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-h1{
+/* h1{
     display: inline;
     text-align: center;
     margin:  0 200px;
     
-}
+} */
 .vic {
-    width: 600px;
+    width: 50%;
     border-radius: 30px;
-    margin: 100px auto;
-    padding: 30px 20px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
     background: 
     linear-gradient(35deg, #8688a1 , rgb(155, 165, 163) )
 
@@ -22,5 +28,10 @@ i {
     color: rgb(45, 45, 99);
     margin: 10px 0 0 0;
     font-size: 70px
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
